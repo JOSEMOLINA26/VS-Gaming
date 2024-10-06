@@ -6,12 +6,12 @@
 }
 
 html {
-  font-family: 'Orbitron', sans-serif;
   font-weight: bold;
   line-height: 1.5rem;
 }
 
 body {
+  font-family: 'Orbitron', sans-serif;
   min-height: 100vh;
   min-height: 100vh;
   background-color: #000000;
@@ -42,6 +42,8 @@ body {
 
 #sidebar ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 #sidebar > ul > li:first-child {
@@ -107,4 +109,31 @@ main p {
   padding: min(3em, 15%);
 
   h2, p { margin-top: 1em }
+}
+
+.hide {
+  display: none; 
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.direction-button {
+  background-color: white; 
+  border: 2px solid #007bff;
+  color: black !important; 
+  padding: 10px 20px;
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s; 
+  justify-content: center;
+  display: none;
+}
+
+.direction-button:hover {
+  background-color: #007bff;
+  color: white; 
 }
