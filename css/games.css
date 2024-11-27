@@ -56,6 +56,7 @@ body {
   color: #555afa;
 }
 
+
 #sidebar a, #sidebar .logo {
   border-radius: .5em;
   padding: .85em;
@@ -109,7 +110,6 @@ main p {
   padding: min(3em, 15%);
 
   h2, p { margin-top: 1em }
-
 }
 
 .hide {
@@ -139,10 +139,27 @@ main p {
   color: white; 
 }
 
-.map{
-  text-align: center;
-  border-radius: 1em;
-  margin-bottom: 20px;
-  padding: min(3em, 15%);
+img{
+  width:180px;
+  height: 270px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
 }
 
+h2{
+  text-align: center;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  z-index: 1;
+}

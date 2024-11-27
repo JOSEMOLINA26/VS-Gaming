@@ -1,0 +1,30 @@
+@charset "utf-8";
+nav {
+    background-color: black;
+    padding-bottom: 60%;
+    padding-right: 15px;
+    float: left;
+}
+
+nav ul{list-style-type: none;
+    font-size:1.5em;
+    text-align:left;
+    margin-top:10px;}
+
+nav li {display: inline;}
+
+nav a{text-decoration: none;
+padding-right:0%;
+padding-left: 0%;}
+
+a:link {color:white}
+a:visited {color:white}
+
+body {
+    background-color: #221811;
+    background-image:linear-gradient(rgb(143, 0, 0),black, black,rgb(0, 0, 175));
+    color:white;
+    font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvitica, Arial, "sans-serif";
+ }
+
+ h1,h3,p{text-indent: 2%;}
