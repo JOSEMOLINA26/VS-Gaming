@@ -150,3 +150,15 @@ main p {
 
 
 }
+
+.card-body{
+  background-color: black;
+  color:white;
+
+
+}
+
+.col-sm img{
+  width: 270px;
+  height: 180px;
+}
