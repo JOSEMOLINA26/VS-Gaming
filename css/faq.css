@@ -146,3 +146,6 @@ main p {
   padding: min(3em, 15%);
 }
 
+footer{
+  text-align: center;
+}
